@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val human = Human("レオン", 43, "travelling")
-        val human2 = Human("エイコ", 33, "cooking")
-
         human.say()
-        human2.say()
-
         human.think()
+
+        val human2 = Human("エイコ", 33, "cooking")
+        human2.say()
         human2.think()
+
     }
 }
